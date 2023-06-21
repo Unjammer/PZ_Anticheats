@@ -8,7 +8,7 @@ AntiCheatProtectionType4 | checkDamage(), check if player do to much damage (dam
 AntiCheatProtectionType5 | checkOwner(), check "owner" of Zombie to prevent packet spoofing (each client send to server only Z owned by himself) | true/false
 AntiCheatProtectionType6 | checkTarget(), check if Zombie target is not spoofed (each client send to server hiw own Z targetting his character) | true/false
 AntiCheatProtectionType7 | checkSafehouseAuth(), check if player in safehouse have proper authorisation or access | true/false
-AntiCheatProtectionType8 | PacketAuthorization, check if player send a valid packet based on his access level | true/false
+AntiCheatProtectionType8 | PacketAuthorization, check if player send a valid packet based on his access level (prevent access to serverside informations, stats etc..) | true/false
 AntiCheatProtectionType9 | Check XP Growth Rate (> 1000.0 * * Threshold Multiplier) | true/false (Threshold Multiplier min: 1, max; 10, default: 1)
 AntiCheatProtectionType10 | Check if packet sended by client is valid or unknow | true/False
 AntiCheatProtectionType11 | *unused* | true/false
