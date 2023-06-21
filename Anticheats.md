@@ -23,7 +23,7 @@ AntiCheatProtectionType19 | Check if packet related to create safehouse sended b
 AntiCheatProtectionType20 | Check if player have right access-level to create a safehouse, also check if safehouse created is bigger than Threshold | true/false (Threshold Multiplier min: 1, max; 10, default: 1) 
 AntiCheatProtectionType21 | failChecksum(), check if packet checksum is valid or not (not related to files/mods checksum)| true/false
 AntiCheatProtectionType22 | Check if client answer to packet checksum control in time | true/false
-AntiCheatProtectionType23 | Check if Client use same Time as Server (prevent Clientside time control) true/false
+AntiCheatProtectionType23 | Check if Client use same Time as Server (prevent Clientside time control) | true/false
 AntiCheatProtectionType24 | Check if client answer to packet Time control in time | true/false
 
 #Note that a lot of controls are client side, and can be bypassed easily
